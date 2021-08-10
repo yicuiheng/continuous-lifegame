@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include"
+            ],
+            "defines": [
+                "GLEW_STATIC",
+                "_DEBUG"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "compilerArgs": [
+                "-Wall",
+                "-Wextra",
+                "-std=c++17",
+                "-pedantic",
+                "-O0",
+                "-g3"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
